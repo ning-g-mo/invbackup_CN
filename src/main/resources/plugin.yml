@@ -1,0 +1,14 @@
+name: InvBackup_CN
+version: '1.0.0'
+main: org.gbq.invbackup.InvBackup
+api-version: '1.21'
+author: G_Ban_Q
+commands:
+  invbackup:
+    description: "用于管理玩家背包备份的命令。"
+    usage: "/invbackup <save|restore|toggleworldcheck|setworld|setinterval|reload>"
+    aliases: ib
+permissions:
+  invbackup.admin:
+    description: "允许管理员保存和恢复玩家背包，以及切换世界检查。"
+    default: op
